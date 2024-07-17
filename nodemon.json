@@ -1,0 +1,18 @@
+{
+    "watch": [
+      "app.js",
+      "routes/*",
+      "models/*",
+      "controllers/*",
+      "views/*",
+      "public/*",
+      "middlewares/*"
+    ],
+    "ext": "js,ejs,json,html,css",
+    "ignore": [
+      "node_modules/",
+      "package.json",
+      "package-lock.json"
+    ],
+    "exec": "node app.js"
+  }
